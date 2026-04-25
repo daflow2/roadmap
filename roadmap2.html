@@ -1,0 +1,199 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="basic html website creation">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+</head>
+<style>
+h3, h4, h2{
+    font-family: 'Architects Daughter', cursive;
+}
+
+
+
+.menu-right{
+    position:fixed;
+    display:flex;
+    justify-content: space-between;
+    font-size: 20px;
+    align-items: center;
+    top: 0;
+    background-color: white;
+    z-index: 2;
+    border-bottom: 1px solid;
+    width: 80%;
+}
+.a{
+    text-decoration: none;
+
+}
+
+
+.toptext{
+    margin-top: 5%;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 15%;
+
+}
+
+.gray{
+    opacity: 0.5;
+    text-align: center;
+    margin-bottom: 15%;
+}
+
+.work-line{
+    border-right: 1px solid;
+    border-left: 1px solid;
+}
+
+.wrap{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 100%;
+}
+
+.wrap2{
+    display: flex;
+    width: 100%;
+
+}
+
+.card{
+    display: grid;
+    border: 1px solid;
+    border-radius: 20px;
+    justify-content: space-between;
+    margin-top: 3%;
+    width: 10%;
+}
+
+@media (max-width:600px){
+.card{
+width: 99%;
+justify-self: center;
+}
+.divider{
+    border-bottom: 1px solid;
+
+}
+.menu-right{
+    display: grid;
+    font-size: 20px;
+    top: 0px;
+    width: 100%;
+    background-color: white;
+    justify-content: center;
+}
+
+
+
+.toptext{
+    margin-top: 60%;
+    text-align: center;
+    font-size: 30px;
+}
+.gray{
+    opacity: 0.5;
+    text-align: center;
+}
+
+
+.wrap{
+    display: grid;
+    justify-content: space-between;
+    text-align: center;
+    width: 100%;
+}
+.wrap2{
+    display: grid;
+}
+.menu-line{
+    border-bottom: 1px solid;
+    width: 100%;
+}
+}
+
+
+</style>
+
+<body>
+<header>
+    <section name="top" class="menu-right">
+        <h2>your name</h2>
+        <div>
+            <a href="#" class="a">Home /</a>
+            <a href="#" class="a">projects /</a>
+            <a href="#" class="a">articles /</a>
+            <a href="#" class="a">contact</a>
+            </div>
+    </section>
+    <section>
+        <h3 class="toptext">frontend developer</h3>
+        <p class="gray">html only with proper layout, no styling</p>
+    </section>
+</header>
+
+<main class="wrap">
+    <div>
+        <h3 class="divider">projects</h3>
+        <p>project one</p>
+        <p>project 2</p>
+        <p>project three</p>
+        <p>project four</p>
+        <p>upcoming project</p>
+    </div>
+    <div>
+        <h3>Work experience</h3>
+        <h4>roadmap.sh</h4>
+        <p>solved all the frontend projects</p>
+        <a href="https://roadmap.sh">visit my profile</a>
+        <p>open source work</p>
+        <p>rem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <a href="https://github.com/">visit my github profile</a>
+    </div>
+    <div>
+        <h3 class="divider">education</h3>
+        <p>textttttttttttttttttttttttttttttttttttttt <br>
+        tttttttttttttttttttttttttttttttttttttttttttt <br>
+        ttttttttttttttttttttttttttttttttttttttttttttttttt</p>
+        <p>courses i took</p>
+        <p>-etccccccccccccccc <br>
+        -etccccccccccccccc <br>
+        -etccccccccccccccc <br>
+        -etccccccccccccccc <br>
+        -etccccccccccccccc <br>
+        -etccccccccccccccc <br>
+        -etccccccccccccccc <br>
+        -etccccccccccccccc <br>
+        -etccccccccccccccc</p>
+    </div>
+</main>
+<footer>
+</footer>
+    <h3 class="divider">reviews from teachers</h3>
+<div class="wrap">
+    <div class="card">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+        <p class="gray">Lorem ipsum dolor sit amet</p>
+    </div>
+    <div class="card">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+        <p class="gray">Lorem ipsum dolor sit amet</p>
+    </div>
+    <div class="card">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+        <p class="gray"> Lorem ipsum dolor sit amet</p>
+    </div>
+</div>
+    <h3  style="margin-top: 20%">all rights reserved 2026</h3>
+</body>
+</html>
+
